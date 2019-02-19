@@ -12,7 +12,7 @@ categories: [coding]
 
 # Bad写法
 比如：判断一个人的分数等级A:输出优秀，B：输出良好，C：输出合格，D:输出不合格
-``` Python
+``` python
 if a == 'A':
   print('优秀') 
 elif a == 'B':
