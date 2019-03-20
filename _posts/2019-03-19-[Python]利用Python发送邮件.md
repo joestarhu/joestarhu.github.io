@@ -40,7 +40,8 @@ categories: [coding]
   `smtp服务器的地址你需要登陆相关邮件服务去找`
   
 2. 设置邮件内容
-  ``` python
+  
+  ``` python 
   from email.mime.multipart import MIMEMultipart #构造邮件内容
   from email.utils import formataddr #构造发件人和收件人邮件地址和名称
   from email.header import Header #构造邮件标题使用
