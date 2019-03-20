@@ -86,6 +86,7 @@ categories: [coding]
   mysmtp.quit()
   ```
 
+# 最后
 我自己封装了一个hmail的类，大家有兴趣可以去看看：
 https://github.com/cantahu/hlib/blob/master/hmail.py
  
