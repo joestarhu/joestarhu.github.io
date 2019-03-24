@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: JH
+title: J.Hu
 subtitle:
 description:
 author: Jian.Hu
@@ -20,7 +20,7 @@ permalink: pretty
 
 # Pagination
 paginate: 10
-#paginate_path: "/page:num/"
+paginate_path: "/page:num/"
 #archive:
   #paginate: 10
   #paginate_path: "/page:num/"
