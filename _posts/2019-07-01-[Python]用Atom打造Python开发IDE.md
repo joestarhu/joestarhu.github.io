@@ -9,7 +9,8 @@ categories: [coding]
 ## file-icons 
   让图标变的好看，即插即用
 ## Kite
-  强大的python文档和IDE工具，需要额外安装Kite
+  强大的python文档和IDE工具，需要额外安装Kite  
+  ※注意：在公司的项目尽量不要使用kite，因为kite会读取你的代码上传到云上，这样可能会造成一些法律问题。
 ## Hydrogen
   神器，谁用谁知道  
   配置：Languages Mappings：{ "python3": "magicpython" }
