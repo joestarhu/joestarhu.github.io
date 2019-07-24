@@ -20,7 +20,7 @@ categories: [coding]
   直接执行代码，很方便
 ## platformio-ide-terminal
   终端也可以在Atom中打开，很方便  
-  ※Mac系统上安装该插件出现 gyp: No Xcode or CLT version detected! 的错误的时候对策如下：
+  ※Mac系统上安装该插件出现 gyp: No Xcode or CLT version detected! 的错误的时候对策如下：  
   `sudo xcode-select --install`  
 
 # Theme
