@@ -88,6 +88,6 @@ categories: [coding]
   ```
 
 # 最后
-我自己封装了一个hmail的类，大家有兴趣可以去看看：
-https://github.com/cantahu/hlib/blob/master/hmail.py
+我自己封装了一个mail的类，大家有兴趣可以去看看：
+https://github.com/cantahu/jhkit/blob/master/jhkit/mail.py
  
