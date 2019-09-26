@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[CFA]Quantitative Methods-001"
+title:  "[CFA-1]Quantitative Methods-001"
 date: 2019-09-26 12:05:05 +0800
 categories: [金融]
 ---
