@@ -9,7 +9,7 @@ categories: [金融]
 A small amount of money now may be equivalent in value to a larger amount received at a future date.  
 一小笔现在的前，可能相当于未来某一时间的更大金额.
 
-Interset rates are set in the marketplace by the forces of supply and demand.  
+Interest rates are set in the marketplace by the forces of supply and demand.  
 利率在市场上由供求决定
 
 ![利率](https://github.com/cantahu/cantahu.github.io/blob/master/pic/interestRateDesc.png?raw=true)
