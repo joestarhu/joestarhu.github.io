@@ -74,3 +74,40 @@ This result leads us to a distinction between the stated annual interest rate an
 ![名义利率和实际利率的区别](https://github.com/cantahu/cantahu.github.io/blob/master/pic/%E5%90%8D%E4%B9%89%E5%88%A9%E7%8E%87%E5%92%8C%E5%AE%9E%E9%99%85%E5%88%A9%E7%8E%87%E7%9A%84%E5%8C%BA%E5%88%AB.png?raw=true)
 
 ![名义利率和实际利率的例子](https://github.com/cantahu/cantahu.github.io/blob/master/pic/%E5%90%8D%E4%B9%89%E5%88%A9%E7%8E%87%E5%92%8C%E5%AE%9E%E9%99%85%E5%88%A9%E7%8E%87%E7%9A%84%E4%BE%8B%E5%AD%90.png?raw=true)
+
+
+# Python代码实现
+```python
+import numpy as np
+
+class Quantitative:
+    def EAR_get(self,rs,m=None) -> float:
+        """
+        获取实际利率(Effectice Annual Rate)
+        In:
+        rs: 名义利率
+        m:  计息频次, None代表连续计息
+        Out:
+        EAR：实际利率
+        """
+        if not m:
+            ear = np.exp(rs) - 1
+        else:
+            ear = (1 + rs/m) ** m - 1
+        return rar
+
+    def fv_get(self,pv,rs,N,m=None) ->float:
+        """
+        获取单一现金流的未来价值
+        In:
+        pv:现在价值
+        rs:名义利率
+        N：计息期数
+        m:计息频次,None代表连续计息
+        Out:
+        fv:未来价值
+        """
+        ear = self.EAR_get(rs,m)
+        fv = pv * ((1+ear) ** N)
+        return fv
+```
