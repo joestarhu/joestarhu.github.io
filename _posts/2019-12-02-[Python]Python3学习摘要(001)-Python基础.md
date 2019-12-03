@@ -2,8 +2,9 @@
 layout: post
 title:  "[Python]Python3学习摘要(001)-Python基础"
 date: 2019-12-02 19:48:01 +0800
-categories: [coding]
+categories: [Python学习]
 ---
+
 # Python基础
 > Python分为2.X和3.X 2个版本,虽同为Python语言,但2个版本的兼容性并不好,3.X将会是未来的趋势.所以建议使用**3.X**
 
