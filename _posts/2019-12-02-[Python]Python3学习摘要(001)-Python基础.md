@@ -95,6 +95,7 @@ $ source venv/bin/activate
 ```
 
 ## 运行Python解释器
+
 |命令|说明|
 |:--|:--|
 |python2|运行python2的解释器|
@@ -102,6 +103,7 @@ $ source venv/bin/activate
 |python|根据你的环境变量,执行2或3的解释器|
 
 ## 通过解释器运行Python程序
+
 |版本|命令行运行命令|
 |:--|:--|
 |2.x|python2 a.py|
